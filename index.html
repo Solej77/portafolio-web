@@ -5,36 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Solej77 | Front-end Developer</title>
+  <link rel="icon" type="image/png" href="./images/logo.png">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li>
-          <a>About me</a>
-        </li>
-        <li>
-          <a>Skills</a>
-        </li>
-        <li>
-          <a>Portafolio</a>
-        </li>
-        <li>
-          <a>Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <figure>
+        <a href="#start"><img src="./images/logo.png" alt="Logo de Solej77" /></a>
+      </figure>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About me</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <section>
+  <section id="start">
     <h1>
       Hi, I´m <strong>Solej77</strong><br />
       A <strong>passionate</strong> Front-end developer
     </h1>
     <picture>
-      <img src="" alt="Principal image">
+      <img src="./images/image-principal.JPG" width="500" height="300" alt="Solej77">
     </picture>
   </section>
-  <section>
+  <section id="about-me">
     <h2>About Me</h2>
     <p>Description of me</p>
     <div>
@@ -42,16 +49,16 @@
       <a>Curriculum</a>
     </div>
   </section>
-  <section>
+  <section id="skills">
     <h2>Skills</h2>
     <p>Description skills</p>
   </section>
-  <section>
+  <section id="portfolio">
     <h2>Portafolio</h2>
     <article>
       <h3>Solej77 Portafolio - Preview</h3>
       <picture>
-        <img src="" alt="Project image">
+        <img src="./images/portafolio-web.png" width="500" alt="Project image">
       </picture>
       <p>Project Description</p>
       <h6>HTML / CSS / JS / GitHub Pages</h6>
@@ -61,9 +68,14 @@
       </div>
     </article>
   </section>
-  <section>
+  <section id="contact">
     <h2>Contact</h2>
-    </section>
+    <form action="">
+      <h3>Do we collaborate on something?</h3>
+      <input type="mail" id="email" placeholder="Write your mail" />
+      <button>Send</button>
+    </form>
+  </section>
   <footer>footer</footer>
 </body>
 </html>
