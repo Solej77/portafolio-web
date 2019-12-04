@@ -6,76 +6,81 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Solej77 | Front-end Developer</title>
   <link rel="icon" type="image/png" href="./images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <div>
-      <figure>
-        <a href="#start"><img src="./images/logo.png" alt="Logo de Solej77" /></a>
+      <figure class="logo">
+        <a href="#hero"><img src="./images/logo.png" alt="Logo de Solej77" /></a>
       </figure>
-      <nav>
+      <nav class="menu">
         <ul>
           <li>
-            <a href="#about-me">About me</a>
+            <a class="link" href="#about-me">About me</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a class="link" href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a class="link" href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a class="link" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
   </header>
-  <section id="start">
-    <h1>
-      Hi, I´m <strong>Solej77</strong><br />
-      A <strong>passionate</strong> Front-end developer
+  <section id="hero">
+    <h1 class="hero-title">
+      Hi, I´m <strong class="hero-title__name">Solej77</strong><br />
+      A <strong class="hero-title__description">passionate</strong> Front-end developer
     </h1>
     <picture>
       <img src="./images/image-principal.JPG" width="500" height="300" alt="Solej77">
     </picture>
   </section>
   <section id="about-me">
-    <h2>About Me</h2>
-    <p>Description of me</p>
-    <div>
-      <a>Resume</a>
-      <a>Curriculum</a>
-    </div>
+    <h2 class="about-me__title">About Me</h2>
+    <article class="about-me">
+      <p class="about-me__title">Description of me</p>
+      <div class="about-me__links">
+        <a class="about-me__links--resume">Resume</a>
+        <a class="about-me__links--curriculum">Curriculum</a>
+      </div>
+    </article>
   </section>
   <section id="skills">
-    <h2>Skills</h2>
-    <p>Description skills</p>
+    <h2 class="skills__title">Skills</h2>
+    <article class="skills">
+      <p class="skills__description">Description skills</p>
+    </article>
   </section>
-  <section id="portfolio">
-    <h2>Portafolio</h2>
-    <article>
-      <h3>Solej77 Portafolio - Preview</h3>
-      <picture>
-        <img src="./images/portafolio-web.png" width="500" alt="Project image">
-      </picture>
-      <p>Project Description</p>
-      <h6>HTML / CSS / JS / GitHub Pages</h6>
-      <div>
-        <a>Visit</a>
-        <a>Source</a>
+  <section id="portfolio" class="portfolio">
+    <h2 class="portfolio-title">Portafolio</h2>
+    <article class="project">
+      <h3 class="project-title">Solej77 Portafolio - Preview</h3>
+      <figure class="project-cover">
+        <img class="project-cover__img" src="./images/portafolio-web.png" width="500" alt="Project image">
+      </figure>
+      <p class="project-description">Project Description</p>
+      <h6 class="project-technologie">HTML / CSS / JS / GitHub Pages</h6>
+      <div class="project-links">
+        <a class="project-links__visit">Visit</a>
+        <a class="project-links__source">Source</a>
       </div>
     </article>
   </section>
   <section id="contact">
-    <h2>Contact</h2>
-    <form action="">
-      <h3>Do we collaborate on something?</h3>
-      <input type="mail" id="email" placeholder="Write your mail" />
-      <button>Send</button>
+    <h2 class="contact-title">Contact</h2>
+    <form action="" class="contact-title__form-email">
+      <h3 class="contact-title__form-email--title">Do we collaborate on something?</h3>
+      <input class="contact-title__form-email--mail"type="mail" id="email" placeholder="Write your mail" />
+      <button class="contact-title__form-email--send">Send</button>
     </form>
   </section>
-  <footer>footer</footer>
+  <footer class="footer">footer</footer>
 </body>
 </html>
