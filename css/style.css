@@ -43,7 +43,9 @@ figure {
   display: flex;  
   justify-content: space-between;
   height: 90px;
+  margin: 0 170px;
 }
+
 .menu {
   display: flex;
   height: inherit;
@@ -70,6 +72,7 @@ figure {
 
 #hero {
   height: 300px;
+  margin: 0 200px;
   background-image: url('../images/image-principal.JPG');
   background-size: 500px 300px;
   background-repeat: no-repeat;
