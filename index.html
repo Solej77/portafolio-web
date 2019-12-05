@@ -11,36 +11,34 @@
 </head>
 <body>
   <header class="header">
-    <div>
-      <figure class="logo">
-        <a href="#hero"><img src="./images/logo.png" alt="Logo de Solej77" /></a>
-      </figure>
-      <nav class="menu">
-        <ul>
-          <li>
-            <a class="link" href="#about-me">About me</a>
-          </li>
-          <li>
-            <a class="link" href="#skills">Skills</a>
-          </li>
-          <li>
-            <a class="link" href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a class="link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <figure class="logo">
+      <a href="#hero"><img class="logo-img" src="./images/logo.png" alt="Logo de Solej77" /></a>
+    </figure>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li>
+          <a class="link" href="#about-me">About me</a>
+        </li>
+        <li>
+          <a class="link" href="#skills">Skills</a>
+        </li>
+        <li>
+          <a class="link" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a class="link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <section id="hero">
     <h1 class="hero-title">
       Hi, I´m <strong class="hero-title__name">Solej77</strong><br />
       A <strong class="hero-title__description">passionate</strong> Front-end developer
     </h1>
-    <picture>
+    <!-- <figure>
       <img src="./images/image-principal.JPG" width="500" height="300" alt="Solej77">
-    </picture>
+    </figure> -->
   </section>
   <section id="about-me">
     <h2 class="about-me__title">About Me</h2>
@@ -61,16 +59,32 @@
   <section id="portfolio" class="portfolio">
     <h2 class="portfolio-title">Portafolio</h2>
     <article class="project">
-      <h3 class="project-title">Solej77 Portafolio - Preview</h3>
+      <div class="project-details">
+        <h3 class="project-title">Solej77 Portafolio - Preview</h3>
+        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti et magnam, odio impedit doloremque eos ad ratione laudantium quasi placeat, quod, tempora vero sed temporibus hic distinctio optio adipisci ipsa?</p>
+        <h6 class="project-technologie">HTML / CSS / JS / GitHub Pages</h6>
+        <div class="project-links">
+          <a class="project-links__visit">Visit</a>
+          <a class="project-links__source">Source</a>
+        </div>
+      </div>
       <figure class="project-cover">
         <img class="project-cover__img" src="./images/portafolio-web.png" width="500" alt="Project image">
       </figure>
-      <p class="project-description">Project Description</p>
-      <h6 class="project-technologie">HTML / CSS / JS / GitHub Pages</h6>
-      <div class="project-links">
-        <a class="project-links__visit">Visit</a>
-        <a class="project-links__source">Source</a>
+    </article>
+    <article class="project">
+      <div class="project-details">
+        <h3 class="project-title">GACM Site</h3>
+        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti et magnam, odio impedit doloremque eos ad ratione laudantium quasi placeat, quod, tempora vero sed temporibus hic distinctio optio adipisci ipsa?</p>
+        <h6 class="project-technologie">HTML / CSS / JS / GitHub Pages</h6>
+        <div class="project-links">
+          <a class="project-links__visit">Visit</a>
+          <a class="project-links__source">Source</a>
+        </div>
       </div>
+      <figure class="project-cover">
+        <img class="project-cover__img" src="./images/portafolio-web.png" width="500" alt="Project image">
+      </figure>
     </article>
   </section>
   <section id="contact">

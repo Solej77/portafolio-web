@@ -1,14 +1,102 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background: #212121;
+  color :white;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h4, h5, h6 {
   font-family: 'Fjalla One', sans-serif;
   font-weight: normal;
+  color:rgb(18, 126, 177);
 }
 
 h1 {
   font-size: 40px;
   line-height: 150%;
   letter-spacing: -.2px;
+  color: white;
+  margin: 100px 150px 70px 30px;
+}
+
+h1 strong {
+  color:rgb(18, 126, 177);
+  font-weight: bold;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.logo-img {
+  width: 130px;
+  height: 90px;
+}
+
+.header {
+  display: flex;  
+  justify-content: space-between;
+  height: 90px;
+}
+.menu {
+  display: flex;
+  height: inherit;
+}
+
+.menu-list {
+  display: flex;
+  height: inherit;
+}
+
+.menu-list li{
+  height: inherit;
+}
+
+
+.link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+#hero {
+  height: 300px;
+  background-image: url('../images/image-principal.JPG');
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #2e2e2e;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 0 200px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.project-cover {
+  width: 500px;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+.project-details {
+  width: 500px;
+  margin: 0 auto;
+  flex-shrink: 0;
 }
