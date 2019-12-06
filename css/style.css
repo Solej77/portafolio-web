@@ -16,7 +16,7 @@ h1 {
   line-height: 150%;
   letter-spacing: -.2px;
   color: white;
-  margin: 100px 150px 70px 30px;
+  margin: 0;
 }
 
 h1 strong {
@@ -35,15 +35,15 @@ figure {
 }
 
 .logo-img {
-  width: 130px;
-  height: 90px;
+  height: 60px;
 }
 
 .header {
   display: flex;  
   justify-content: space-between;
-  height: 90px;
+  height: 70px;
   margin: 0 170px;
+  align-items: center;
 }
 
 .menu {
@@ -77,6 +77,22 @@ figure {
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position-x: right;
+  display: flex;
+  align-items: center;
+}
+
+#about-me {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project {
@@ -92,6 +108,14 @@ figure {
   padding: 20px;
 }
 
+.portfolio-title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .project-cover {
   width: 500px;
   margin: 0 auto;
@@ -103,3 +127,27 @@ figure {
   margin: 0 auto;
   flex-shrink: 0;
 }
+
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img{
+  width: 100px;
+  height: 90px;
+}
+
+.footer-description {
+  margin: 0;
+}
+
